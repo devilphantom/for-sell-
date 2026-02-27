@@ -60,7 +60,7 @@ auth_channels     = environ.get("AUTH_CHANNELS", "-1002106653809")# Channels for
 # Payment Configuration
 # ============================
 QR_CODE = environ.get('QR_CODE', 'https://files.catbox.moe/kk1h5n.jpg')    # QR code image for payments
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '')    # Owner UPI ID for payments
+OWNER_UPI_ID = environ.get('Contact me', 'https://t.me/Phantom_Devil')    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
     10: "7day",
